@@ -1,7 +1,6 @@
 # AI-Powered Legacy Application Modernization: Technical and Market Analysis (2023-2025)
 
-**Author:** Rohit Kelapure (8090.ai)
-**Contact:** rohit@8090.ai
+**Author:** Rohit Kelapure
 **Published:** 2025
 
 ---
@@ -178,19 +177,18 @@ Three-tier vendor ecosystem emerging:
   title={AI-Powered Legacy Application Modernization: Technical and Market Analysis (2023-2025)},
   author={Kelapure, Rohit},
   year={2025},
-  institution={8090.ai},
-  type={Technical Report},
+  type={Independent Research},
   url={https://github.com/kelapure/ai-powered-modernization-analysis}
 }
 ```
 
 ### APA
 
-Kelapure, R. (2025). *AI-Powered Legacy Application Modernization: Technical and Market Analysis (2023-2025)*. 8090.ai Technical Report.
+Kelapure, R. (2025). *AI-Powered Legacy Application Modernization: Technical and Market Analysis (2023-2025)*. Independent Research.
 
 ### Chicago
 
-Kelapure, Rohit. "AI-Powered Legacy Application Modernization: Technical and Market Analysis (2023-2025)." 8090.ai Technical Report, 2025.
+Kelapure, Rohit. "AI-Powered Legacy Application Modernization: Technical and Market Analysis (2023-2025)." Independent Research, 2025.
 
 ---
 
@@ -288,10 +286,8 @@ Under the following terms:
 ## Contact
 
 **Rohit Kelapure**
-8090.ai
-rohit@8090.ai
 
-For questions, collaboration opportunities, or to share your modernization experiences, please reach out.
+For questions, collaboration opportunities, or to share your modernization experiences, please reach out via GitHub issues or discussions.
 
 ---
 
