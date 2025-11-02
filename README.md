@@ -2,7 +2,7 @@
 
 **Author:** Rohit Kelapure
 **Published:** 2025
-
+**Paper**: [ai-powered-modernization](https://github.com/kelapure/ai-powered-modernization-analysis/blob/main/neurips-modernization-2025.pdf)
 ---
 
 ## Executive Summary
