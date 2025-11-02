@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# Except these files
+!.gitignore
+!README.md
+!neurips-modernization-2025.pdf
+
+# Ignore Mac system files
+.DS_Store
