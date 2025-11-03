@@ -1,7 +1,7 @@
 # AI-Powered Legacy Application Modernization: Technical and Market Analysis (2023-2025)
 
 **Author:** Rohit Kelapure
-**Published:** 2025
+**Published:** 11/2025
 ---
 
 ## Executive Summary
