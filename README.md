@@ -6,19 +6,15 @@
 
 ## Executive Summary
 
-Legacy application modernization—transforming mainframe systems, aging Java applications, legacy .NET frameworks, and outdated Python codebases—faces a critical challenge. The workforce maintaining these systems is retiring. Many organizations struggle with manual migration approaches.
-
-**What changed: Hybrid approaches combining deterministic Abstract Syntax Trees (AST) with Large Language Models (LLM) now achieve measurable success**. Research on synthesized AST transformations shows 95% precision and 97% F1 score for Python code transformations—substantially exceeding 60% precision and 75% F1 of direct code transformation approaches.
-
-This technical breakthrough unlocked market growth: the global application modernization services market reached $19.82B in 2024 and is projected to grow to $39.62B by 2029 at 14.9% compound annual growth rate.
+AI-powered legacy application modernization represents a transformative shift from traditional migration approaches, with hybrid AST-LLM architectures demonstrating high success rates compared to pure approaches. The market is experiencing explosive growth from $19.82B (2024) to $39.62B (2029) at 14.9% CAGR, driven by GenAI disruption, cloud imperatives, and mounting technical debt from legacy systems across COBOL, Java, .NET, and Python codebases.
 
 **Key Findings:**
 
-- **Hybrid AST-LLM architectures deliver 80-95% success rates** compared to 45-60% for pure LLM approaches, validated across 1,200+ production projects
+- **Hybrid AST-LLM architectures demonstrate high success rates** compared to pure approaches, validated across production deployments including enterprise Java microservices transformations
 - **Market experiencing explosive growth** from $19.82B (2024) to $39.62B (2029) at 14.9% CAGR, driven by GenAI disruption and mounting technical debt
-- **The "type system dividend"**: Static languages (Java 80-90%, COBOL 85-95%, C# 82-95%) outperform dynamic languages (Python 60-75%, JavaScript 65-78%) by 15-25 percentage points
-- **Execution gap persists**: While 78% of organizations use AI, fewer than 20% achieve measurable business value. Translation: Adoption is widespread. Value realization remains elusive for most.
-- **Early mover advantage**: Organizations adopting in 2025-2026 capture 30-45% productivity gains before competitors
+- **Static languages demonstrate advantages** over dynamic languages due to type system characteristics
+- **Execution gap persists**: Despite 78% organizational AI adoption, fewer than 20% achieve tangible enterprise-level financial benefits—execution complexity remains the primary challenge
+- **Early mover advantage**: Organizations adopting in 2025-2026 capture productivity gains before competitors
 
 **Market Landscape:**
 
@@ -29,10 +25,10 @@ Three-tier vendor ecosystem emerging:
 
 **Strategic Gaps:**
 
-- **Mid-market opportunity**: $8-12B TAM with only 15% penetration
-- **Vertical-specific solutions**: 70% of offerings remain horizontal while 35% of spending concentrates in financial services
-- **Multi-cloud/vendor-neutral**: 38% cite lock-in concerns
-- **Post-modernization optimization**: 74% experience cloud repatriation due to insufficient optimization
+- **Mid-market opportunity**: Substantial addressable market with low penetration
+- **Vertical-specific solutions**: Most offerings remain horizontal while significant spending concentrates in financial services
+- **Multi-cloud/vendor-neutral**: Many organizations cite lock-in concerns
+- **Post-modernization optimization**: Many organizations experience cloud repatriation due to insufficient optimization
 
 ---
 
@@ -81,7 +77,7 @@ Three-tier vendor ecosystem emerging:
    - LLM-Guided Enumerative Synthesis
 
 9. **Architectural Patterns**
-   - Strangler Fig Pattern (80-90% of Migrations)
+   - Strangler Fig Pattern (Widely Used Approach)
    - Human-in-the-Loop (HITL) for Regulated Industries
    - Continuous Modernization vs One-Time Projects
 
@@ -96,8 +92,8 @@ Three-tier vendor ecosystem emerging:
     - AI-Native Pure-Plays
     - Cloud Hyperscalers
     - Global System Integrators
-    - Investment Activity ($24B Q2 2024)
-    - M&A Consolidation ($2.3B+ Deals)
+    - Investment Activity
+    - M&A Consolidation
 
 12. **Market Gaps and Strategic Opportunities**
     - Four Underserved Segments
@@ -125,49 +121,42 @@ Three-tier vendor ecosystem emerging:
 
 ### Technical Architecture
 
-**Hybrid > Pure Approaches**
-- Hybrid AST-LLM: 80-95% success
-- Pure LLM: 45-60% success
-- Pure AST: 40-60% success
-- **30-50 percentage point advantage** for hybrid approaches
+**Hybrid Approaches Outperform Pure Methods**
+- Hybrid AST-LLM architectures demonstrate substantially higher success rates than pure LLM or pure AST approaches
+- Hybrid approaches combine deterministic AST transformations with LLM semantic understanding
+- Validated across production deployments at scale
 
-**Language-Specific Success Rates**
+**Language and Type System Characteristics**
+- Static languages (COBOL, C#, Java) demonstrate higher success rates than dynamic languages (Python, JavaScript)
+- Type system provides structural advantages for automated transformation
+- Cross-language patterns show significant variation based on type system strength
 
-| Language | Type System | Hybrid Success | Primary Challenge |
-|----------|-------------|----------------|-------------------|
-| COBOL | Static, explicit | 85-95% | Scarce training data, mainframe idioms |
-| C# .NET | Static, strong | 82-95% | Roslyn AST advantage |
-| Java | Static, strong | 80-90% | Framework diversity, dependency mgmt |
-| Python | Dynamic | 60-75% | Runtime type resolution, metaprogramming |
-| JavaScript | Dynamic, loose | 65-78% | Async patterns, weak typing |
-
-**Task-Specific Success Rates**
-- Language Transpilation: 85-92% hybrid vs 45-60% pure LLM
-- API Migration: 80-88% hybrid (Slack: 80%, 10,000 hours saved)
-- Test Migration: 75-85% hybrid
-- Microservices Decomposition: 70-80% hybrid (34% human architectural decisions)
-- Build Modernization: 85-90% hybrid (largely deterministic)
+**Task-Specific Patterns**
+- Language Transpilation: Hybrid approaches significantly outperform pure LLM
+- API Migration: Hybrid approaches effective (Slack case study: substantial time savings)
+- Test Migration: Hybrid approaches show strong results
+- Microservices Decomposition: Hybrid with human architectural guidance
+- Build Modernization: Largely deterministic with high success rates
 
 ### Market Dynamics
 
 **Investment Activity (2024-2025)**
 - Moderne: $30M Series B (February 2025)
-- Mechanical Orchard: $74M total ($50M Series B August 2024)
-- Qodo: $50M total ($40M Series A September 2024)
-- CoreStory: $68M total ($32M Series A October 2025)
-- Q2 2024: $24B into AI startups (best-funded sector)
+- Mechanical Orchard: $74M total
+- Qodo: $50M total
+- CoreStory: $68M total
+- Substantial Q2 2024 capital into AI startups (best-funded sector)
 
 **M&A Consolidation**
-- Rocket Software → OpenText AMC: $2.3B (May 2024)
-- Microsoft + Coca-Cola: $1.1B multi-cloud agreement
-- Thoughtworks + Mechanical Orchard: Strategic partnership (April 2025)
-- Amdocs → Astadia: Mainframe modernization consolidation
+- Significant M&A activity in modernization and AI sectors
+- Strategic partnerships between vendors and system integrators
+- Market consolidation expected to continue
 
-**Sector-Specific Spending**
-- Financial Services: 35% of modernization spending
-- Government: $100B US federal IT modernization commitment
-- Healthcare: Hundreds of large breaches (2023), over 100M records affected
-- Telecommunications: $68.79B OSS/BSS → $109B by 2030
+**Sector-Specific Trends**
+- Financial Services: Substantial share of modernization spending
+- Government: Multi-billion dollar federal IT modernization commitments
+- Healthcare: Hundreds of large breaches driving urgent security modernization
+- Telecommunications: Significant OSS/BSS market growth
 
 ---
 
@@ -239,11 +228,11 @@ This analysis is designed for:
 
 ## Methodology
 
-**Data Sources (n=47 primary sources)**
-- Academic Papers: 18 (arXiv, conference proceedings)
-- Vendor Case Studies: 29
-- Industry Reports: MarketsandMarkets, Gartner, Forrester, McKinsey
-- Production Deployments: 1,200+ transformation projects analyzed
+**Data Sources**
+- Academic Papers (arXiv, conference proceedings)
+- Vendor Case Studies
+- Industry Reports (MarketsandMarkets, Gartner, Forrester, McKinsey)
+- Production deployment analysis
 
 **Validation Approach**
 - Cross-validation across multiple independent sources
@@ -257,26 +246,19 @@ This analysis is designed for:
 - Technical jargon defined on first use with plain language explanations
 - Citations provided for key findings and industry metrics
 
-**Sample Sizes**
-- COBOL: n=127 repositories
-- Java: n=203 repositories
-- C# .NET: n=104 repositories
-- Python: n=156 repositories
-- JavaScript: n=98 repositories
-
 ---
 
 ## Limitations
 
 Readers should consider:
 
-1. **Success rates represent upper bounds** - 5-10 percentage points lower in practice due to publication bias
-2. **Organizational factors matter** - change management quality, team skill, executive sponsorship affect outcomes independently
-3. **Language and task context required** - cross-language spread is 30-35 percentage points across different languages and tasks
-4. **Measurement definitions vary** - "success" ranges from compilation to test passage to production deployment
-5. **Recency bias** - 62% of sources from 2024-2025; long-term maintenance outcomes (2+ years) not yet available
+1. **Success rates represent upper bounds** - May be lower in practice due to publication bias
+2. **Organizational factors matter** - Change management quality, team skill, executive sponsorship affect outcomes independently
+3. **Language and task context required** - Significant variation across different languages and task types
+4. **Measurement definitions vary** - "Success" ranges from compilation to test passage to production deployment
+5. **Recency bias** - Majority of sources from 2024-2025; long-term maintenance outcomes not yet available
 
-See Section 4 for detailed discussion of limitations and threats to validity.
+See paper for detailed discussion of limitations and threats to validity.
 
 ---
 
